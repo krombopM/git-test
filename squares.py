@@ -3,6 +3,6 @@ import time
 
 #squares
 x = input('Specify a range to square: ')
-for i in range(x)
+for i in range(x):
 	print(i*i)
-	time.slee(1)
+	time.sleep(1)
